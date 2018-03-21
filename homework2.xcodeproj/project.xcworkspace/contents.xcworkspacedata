@@ -2,6 +2,24 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../homework2/Calculator.h">
+   </FileRef>
+   <FileRef
+      location = "group:../homework2/Calculator.m">
+   </FileRef>
+   <FileRef
+      location = "group:../homework2/FractionMathOps.h">
+   </FileRef>
+   <FileRef
+      location = "group:../homework2/FractionMathOps.m">
+   </FileRef>
+   <FileRef
+      location = "group:../homework2/Fraction.h">
+   </FileRef>
+   <FileRef
+      location = "group:../homework2/Fraction.m">
+   </FileRef>
+   <FileRef
       location = "self:homework2.xcodeproj">
    </FileRef>
 </Workspace>

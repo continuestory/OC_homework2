@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BCC67B21205FB1030091AF8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC67B20205FB1030091AF8C /* main.m */; };
+		BCD2E285205FCE760023A211 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD2E284205FCE760023A211 /* Fraction.m */; };
+		BCD2E288205FD2B80023A211 /* FractionMathOps.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD2E287205FD2B80023A211 /* FractionMathOps.m */; };
+		BCD2E28B205FDDBE0023A211 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD2E28A205FDDBE0023A211 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		BCC67B1D205FB1030091AF8C /* homework2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = homework2; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC67B20205FB1030091AF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD2E283205FCE760023A211 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		BCD2E284205FCE760023A211 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		BCD2E286205FD2B80023A211 /* FractionMathOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FractionMathOps.h; sourceTree = "<group>"; };
+		BCD2E287205FD2B80023A211 /* FractionMathOps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FractionMathOps.m; sourceTree = "<group>"; };
+		BCD2E289205FDDBE0023A211 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		BCD2E28A205FDDBE0023A211 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +66,12 @@
 		BCC67B1F205FB1030091AF8C /* homework2 */ = {
 			isa = PBXGroup;
 			children = (
+				BCD2E289205FDDBE0023A211 /* Calculator.h */,
+				BCD2E28A205FDDBE0023A211 /* Calculator.m */,
+				BCD2E286205FD2B80023A211 /* FractionMathOps.h */,
+				BCD2E287205FD2B80023A211 /* FractionMathOps.m */,
+				BCD2E283205FCE760023A211 /* Fraction.h */,
+				BCD2E284205FCE760023A211 /* Fraction.m */,
 				BCC67B20205FB1030091AF8C /* main.m */,
 			);
 			path = homework2;
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCC67B21205FB1030091AF8C /* main.m in Sources */,
+				BCD2E28B205FDDBE0023A211 /* Calculator.m in Sources */,
+				BCD2E285205FCE760023A211 /* Fraction.m in Sources */,
+				BCD2E288205FD2B80023A211 /* FractionMathOps.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +253,7 @@
 				BCC67B26205FB1030091AF8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
