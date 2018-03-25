@@ -14,15 +14,31 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         
-//        test Fraction
+        //test Fraction
         
-//        Fraction * a = [[Fraction alloc]init];
-//        Fraction * b = [[Fraction alloc]init];
+        Fraction * a = [[Fraction alloc]init];
+        Fraction * b = [[Fraction alloc]init];
+        Fraction * c = [[Fraction alloc]init];
 //        Fraction *result;
-//        
-//        [a setTo: 1 over: 3];
-//        [b setTo: 2 over: 5];
-//        
+        
+//
+        [a setTo: 1 over: 3];
+        [b setTo: 2 over: 5];
+        [c setTo: 2 over: 6];
+         NSLog(@"a = ");
+        [a print];
+         NSLog(@"b = ");
+        [b print];
+         NSLog(@"c = ");
+        [c print];
+        
+        NSLog(@"a isEqualTo:b = %i",[a isEqualTo:b]);
+        NSLog(@"[a isEqualTo:c] = %i",[a isEqualTo:c]);
+        NSLog(@"[b isEqualTo:c] = %i",[b isEqualTo:c]);
+        NSLog(@"[a compare:b] = %i",[a compare:b]);
+        NSLog(@"[a compare:c] = %i",[a compare:c]);
+        NSLog(@"[b compare:c] = %i",[b compare:c]);
+//
 //        [a print];
 //        NSLog(@" +");
 //        [b print];
